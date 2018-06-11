@@ -1,0 +1,731 @@
+/*
+Theme Name: inspirationavenue
+Theme URI: https://inspirationavenue.co.za/
+Author:Inspiration Avenue
+Description: A custom Wordpress theme developed by the insanely clever team @ Inspiration Avenue for the Inspiration Avenue website. 
+Version: 1.0
+*/
+
+
+/* IF YOU ARE READING THIS THEN WE CAN POSSIBLY WORK TOGETHER. IF YOU HAVE PHP, JS, HTML, CSS, SQL SKILLS CONTACT JEFF @ jeff@inspirationavenue.co.za */
+
+
+/* Inspiration Avenue Main Styles */
+
+
+/* header start */
+
+
+/* navigation*/
+
+.navbar-light .navbar-brand {
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:100px;
+  width:110px;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background-color:#ef133b;
+}
+#navcol-1 {
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+#navcol-1 a {
+  color:#fff;
+}
+
+.nav.navbar-nav.mx-auto {
+  font-family:Raleway;
+  word-wrap:break-word;
+}
+
+/* end */
+/* header end */
+
+/* footer */
+
+@media (min-width: 300px) {
+  #footer-logo {
+    background-image:url(../../assets/img/ia_logo_tspnt.svg);
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:50%;
+    height:auto;
+  }
+}
+
+#wp-dev {
+  font-size:2em;
+}
+
+#contact-title h1 {
+  color:#fff !important;
+  font-family:Ubuntu,Arial, sans-serif;
+  margin-left:25%;
+  margin-top:-20%;
+  font-size:3.5em;
+}
+
+#contact-title h2 {
+  color:#fff !important;
+  font-family:Ubuntu,Arial, sans-serif;
+  margin-left:35%;
+  font-size:3em;
+}
+
+#contact-title h3 {
+  color:#fff !important;
+  font-family:Ubuntu,Arial, sans-serif;
+  font-size:2.8em;
+  margin-left:45%;
+}
+
+#contact-title {
+  margin-top:-17%;
+}
+
+#contact-copy {
+  margin-top:10%;
+  width:70%;
+  text-align:center;
+  margin-left:14%;
+  color:#000 !important;
+  font-family:Ubuntu,Arial,sans-serif;
+  font-size:2em;
+}
+
+#contact-copy p {
+  color:#000 !important;
+  width:auto;
+  text-align:center;
+  margin-left:-10%;
+  color:#000 !important;
+  font-family:Ubuntu,Arial,sans-serif;
+  font-size:1em;
+  height:100%;
+  padding-bottom:20px;
+}
+
+.line-1, .line-2, .line-3 {
+  color:#fff !important;
+  font-family:Ubuntu,Arial,sans-serif;
+  font-size:3.5em;
+  text-align:center;
+}
+
+
+/* end */
+
+/* landing page */
+
+/* hero section */
+
+#hero .jumbotron {
+  background-image:url(../../assets/img/matheus-ferrero-350443-unsplash.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  height:90vh;
+}
+
+@media (min-width: 300px) {
+  #hero .jumbotron h1 {
+    color:#fff;
+    font-family:Raleway;
+    font-size:50px;
+    margin-top:150px;
+    text-align:center;
+  }
+}
+
+#hero .jumbotron p {
+  color:#fff;
+  font-size:50px;
+  margin-left:50px;
+  font-family:Roboto;
+  text-align:center;
+}
+
+#hero .jumbotron h1 p {
+}
+
+/* end */
+
+/* service section */
+
+#service-1 .fa.fa-code {
+  font-size:80px;
+  color:rgba(255,0,0,0.75);
+  margin-left:110px;
+}
+
+#service-2 .fa.fa-wordpress {
+  font-size:80px;
+  color:rgba(255,0,0,0.75);
+  margin-left:110px;
+  padding:6px;
+}
+
+#service-3 .fa.fa-facebook {
+  font-size:80px;
+  color:rgba(255,0,0,0.75);
+  margin-left:110px;
+  padding:9px;
+  margin-top:7px;
+}
+
+#service-1 h4 {
+  text-align:center;
+  margin-left:-56px;
+  padding:7px;
+  margin-top:15px;
+}
+
+#service-2 h4 {
+  text-align:center;
+  margin-left:-56px;
+  padding:10px;
+}
+
+#service-2 p {
+  margin-top:28px;
+}
+
+
+#service-3 h4 {
+  text-align:center;
+  margin-left:-56px;
+  padding:7px;
+  margin-top:-9px;
+}
+
+
+#service-3 p {
+  margin-top:28px;
+}
+
+#about {
+  height:100vh;
+  background:rgba(255,0,0,0.75);
+}
+
+#about h2 {
+  text-align:center;
+  margin-top:24px;
+  color:#fff;
+  font-family:Roboto;
+  padding:54px;
+}
+
+
+
+#about p {
+  color:#fff;
+  font-family:Roboto;
+  font-size:16px;
+  padding:16px;
+  width:100%;
+  text-align:center;
+  margin-top:8px;
+}
+
+
+/* end */
+
+/* portfoio */
+
+
+#project-1, #project-2, #project-3 {
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:100%;
+  height:auto;
+}
+
+/* end */
+
+/* socials */
+
+#socials {
+  background-image:url(../../assets/img/social_in.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding:40px;
+}
+
+#social-title h2 {
+  text-align:center;
+  font-family:Roboto,sans-serif;
+  color:rgba(255,0,0,0.75);
+  font-size:2.5em;
+  padding:10px;
+}
+
+
+
+#social-icon {
+  font-size:10em;
+  color:#fff;
+  padding:20px;
+  text-align:center;
+  margin-left:50px;
+}
+
+/* end */
+
+
+
+/* landing page end */
+
+/* contact page */
+
+
+#main-content {
+  height:100vh;
+  padding:50px;
+  margin-top: -150px;       
+}
+
+#contact-copy {
+  margin-top:40px;
+}
+
+#form {
+  background:none;
+  box-shadow:none;
+}
+
+#form-input {
+  box-shadow:none;
+  background:none;
+  border:2px solid #bbb;
+  border-radius:0px;
+  padding:5px;
+}
+
+.contact-clean {
+  background:#fff;
+}
+/* end */
+
+/* pricing page */
+
+#content-wrapper {
+  background:linear-gradient(180deg,#ef133b 30%,#ffffff 65%)!important;
+  height:100vh;
+  padding-top:95px;
+  padding-right:0px;
+  padding-bottom:54px;
+  padding-left:0px;
+}
+
+#content-wrapper h1, h2 {
+  color:#fff;
+  text-align:center;
+  font-family:Source Sans Pro,Arial,Sans-serif;
+  font-size:3em;
+  vertical-align:baseline;
+}
+
+#package-1 {
+  background:#1ec4d6;
+}
+
+#package-1, #package-2, #package-3 h3 {
+  vertical-align:baseline;
+  text-align:center;
+  padding:20px;
+  color:#fff;
+  font-family:Source sans pro,Arial,Sans-serif;
+}
+
+#package-1, #package-2, #package-3 h3 {
+  vertical-align:baseline;
+  text-align:center;
+  padding:20px;
+  color:#fff;
+  font-family:Source sans pro,Arial,Sans-serif;
+}
+
+#package-2 {
+  background:#7d75d9;
+}
+
+#package-3 {
+  background:#3b67b3;
+  padding-bottom:20px;
+}
+
+#price-1 h1 {
+  font-family:Source sans pro,Arial,Sans-serif;
+  font-size:96px;
+  font-weight:100;
+}
+
+#price-2 h1 {
+  font-family:Source sans pro,Arial,Sans-serif;
+  font-size:96px;
+  font-weight:100;
+}
+
+#price-3 h1 {
+  font-family:Source sans pro,Arial,Sans-serif;
+  font-size:76px;
+  font-weight:100;
+  color:#fff;
+}
+
+#package-1, #package-2 {
+  border-right:15px solid #fff;
+}
+
+#pricing-table {
+  margin-top:-30%;
+  border-radius:2px;
+}
+
+.feature-1 {
+  font-family:Source sans pro,Arial,sans-serif;
+  font-style:inherit;
+}
+
+#price-2 {
+}
+
+#price-3 p {
+  color:#fff;
+}
+
+#package-3 button {
+  margin-left:84px;
+}
+
+#cta {
+  height:auto;
+  width:100%;
+  background-color:#3b67b3;
+  margin-left:0px;
+  margin-top:30px;
+  position:relative;
+  padding-bottom:20px;
+  border-right:20px solid #fff;
+  border-left:20px solid #fff;
+  border-bottom:20px solid #fff;
+}
+
+#cta h3 {
+  color:#fff;
+  font-family:Source sans pro, Arial, sans-serif;
+  text-align:center;
+  font-size:40px;
+  padding-top:35px;
+  margin:0;
+}
+
+#cta h4 {
+  color:#fff;
+  font-family:Source sans pro, Arial, sans-serif;
+  text-align:center;
+  font-size:31px;
+  padding-top:10px;
+  margin:0;
+}
+
+@media (min-width: 300px) {
+  #cta button {
+    margin-left:60px;
+    margin-top:15px;
+  }
+}
+
+@media (min-width: 576px) {
+  #cta button {
+    margin-left:175px;
+    margin-top:15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #cta button {
+    margin-left:260px;
+    margin-top:15px;
+  }
+}
+
+@media (min-width: 992px) {
+  #cta button {
+    margin-left:360px;
+    margin-top:15px;
+  }
+}
+
+#cta button {
+  margin-left:465px;
+  margin-top:15px;
+}
+
+/* end */
+
+/* vendor styles start */
+
+/* projects section */
+
+.projects-clean {
+  color:#313437;
+  background-color:#fff;
+}
+
+.projects-clean p {
+  color:#7d8285;
+}
+
+.projects-clean h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .projects-clean h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.projects-clean .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.projects-clean .intro p {
+  margin-bottom:0;
+}
+
+.projects-clean .projects {
+  padding-bottom:40px;
+}
+
+.projects-clean .item {
+  text-align:center;
+  padding-top:50px;
+  min-height:425px;
+}
+
+.projects-clean .item .name {
+  font-weight:bold;
+  margin-top:28px;
+  margin-bottom:8px;
+  color:inherit;
+}
+
+.projects-clean .item .description {
+  font-size:15px;
+  margin-top:15px;
+  margin-bottom:0;
+}
+
+/* end */
+
+/* footer */
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+  padding: 10px;    
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+
+
+/* end */
+
+/* contact form */
+
+.contact-clean {
+  background:#f1f7fc;
+  padding:80px 0;
+  margin-top: -240px;
+}
+
+@media (max-width:767px) {
+  .contact-clean {
+    padding:20px 0;
+  }
+}
+
+.contact-clean form {
+  max-width:480px;
+  width:90%;
+  margin:0 auto;
+  background-color:#ffffff;
+  padding:40px;
+  border-radius:4px;
+  color:#505e6c;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width:767px) {
+  .contact-clean form {
+    padding:30px;
+  }
+}
+
+.contact-clean h2 {
+  margin-top:5px;
+  font-weight:bold;
+  font-size:28px;
+  margin-bottom:36px;
+  color:inherit;
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom:5px;
+}
+
+.contact-clean form .form-control {
+  background:#fff;
+  border-radius:2px;
+  box-shadow:1px 1px 1px rgba(0,0,0,0.05);
+  outline:none;
+  color:inherit;
+  padding-left:12px;
+  height:42px;
+}
+
+.contact-clean form .form-control:focus {
+  border:1px solid #b2b2b2;
+}
+
+.contact-clean form textarea.form-control {
+  min-height:100px;
+  max-height:260px;
+  padding-top:10px;
+  resize:vertical;
+}
+
+.contact-clean form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+  outline:none !important;
+}
+
+.contact-clean form .btn:hover {
+  opacity:1;
+}
+
+.contact-clean form .btn:active {
+  transform:translateY(1px);
+}
+
+.contact-clean form .btn-primary {
+  background-color:#055ada !important;
+  margin-top:15px;
+  color:#fff;
+}
+
+
+
+
